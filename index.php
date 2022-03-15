@@ -1,0 +1,32 @@
+<?php
+$initial = '555';
+$a = octdec($initial);
+$b = deg2rad($a);
+$c = cos($b);
+$d = round($c,3);
+$e = log($d);
+$f = abs($e);
+$g = acos($f);
+$h = rad2deg($g);
+$i = floor($h);
+$j = $i - 47;
+
+echo $a;
+echo "\n";
+echo $b;
+echo "\n";
+echo $c;
+echo "\n";
+echo $d;
+echo "\n";
+echo $e;
+echo "\n";
+echo $f;
+echo "\n";
+echo $g;
+echo "\n";
+echo $h;
+echo "\n";
+echo $i;
+echo "\n";
+echo $j;
